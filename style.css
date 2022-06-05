@@ -1,0 +1,59 @@
+/*добавляем шрифты*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*границы и внутренние отступы будут учитываться в значениях, которые указали в ширине и высоте элемента*/
+* {
+    box-sizing: border-box;
+  }
+
+/*прижимаем footer к низу страницы*/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /*ограничиваем ширину container до 1440px*/
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  /**/
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  /*плавная прокрутка*/
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  /*убираем стандартные маркеры*/
+.nav-list {
+  list-style: none;
+}
+
+/*добавляем отступы между элементами списка*/
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+/*убираем подчёркивание ссылки (hover - появляется при наведении)*/
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/*меняем цвет ссылок*/
+.section-item a:hover {
+  color: #ce1827;
+}
+/*cursor: pointer  НЕ ЗАБЫТЬ ДОБАВИТЬ ДЛЯ ИНТЕРАКТИВНЫХ ЭЛ*/
