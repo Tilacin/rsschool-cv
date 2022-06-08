@@ -145,7 +145,7 @@ img.avatar {
   }
 .github >a > img {
   width: 100px;
-  top: 100px;
+  top: 3px;
   float: right;
 }
 .date {
