@@ -138,3 +138,18 @@ img.avatar {
       width: 1440px;
       margin: 0 auto;
     }
+    .rs_school > a > img {
+      width: 100px;
+      top: 3px;
+      float: left;
+  }
+.github >a > img {
+  width: 100px;
+  top: 100px;
+  float: right;
+}
+.date {
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em
+}
